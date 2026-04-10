@@ -1,0 +1,56 @@
+{
+  "name": "@katebtech/layout",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "./footer": {
+      "types": "./dist/footer/index.d.ts",
+      "default": "./dist/footer/index.js"
+    },
+    "./navbar": {
+      "types": "./dist/navbar/index.d.ts",
+      "default": "./dist/navbar/index.js"
+    },
+    "./hero": {
+      "types": "./dist/hero/index.d.ts",
+      "default": "./dist/hero/index.js"
+    },
+    "./home": {
+      "types": "./dist/home/index.d.ts",
+      "default": "./dist/home/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "typecheck": "tsc --noEmit",
+    "check": "pnpm typecheck && pnpm build",
+    "prepare": "pnpm build",
+    "clean": "rm -rf dist",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
+  },
+  "peerDependencies": {
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint-config-prettier": "^10.1.8",
+    "next": "^16.0.0",
+    "prettier": "^3.8.1",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@katebtech/core": "git+ssh://git@github.com/Bazrahimi/katebtech-core.git#main",
+    "react-icons": "^5.6.0"
+  }
+}

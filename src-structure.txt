@@ -1,0 +1,10 @@
+src
+├── footer
+│   ├── Acknowledgement.tsx
+│   ├── FooterHeader.tsx
+│   ├── PoweredByKateb.tsx
+│   ├── components.tsx
+│   └── index.ts
+└── navbar
+
+3 directories, 5 files
