@@ -1,10 +1,27 @@
 src
+├── assets
+│   └── hazaristan-flag-icon.svg
 ├── footer
-│   ├── Acknowledgement.tsx
-│   ├── FooterHeader.tsx
-│   ├── PoweredByKateb.tsx
-│   ├── components.tsx
-│   └── index.ts
+│   └── 1
+│       ├── Acknowledgement.tsx
+│       ├── FooterHeader.tsx
+│       ├── PoweredByKateb.tsx
+│       ├── components.tsx
+│       └── index.ts
 └── navbar
+    └── 1
+        ├── HomeLink.tsx
+        ├── HzLanguages.tsx
+        ├── PrimaryLinks.tsx
+        ├── ServiceMenu.tsx
+        ├── account
+        │   ├── AccountMenu.tsx
+        │   ├── AccountMenuClient.tsx
+        │   └── LogoutButton.tsx
+        ├── index.ts
+        ├── lib
+        │   ├── DropdownMenu.tsx
+        │   └── useDropdownMenu.ts
+        └── types.ts
 
-3 directories, 5 files
+8 directories, 17 files

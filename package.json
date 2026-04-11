@@ -8,12 +8,12 @@
   ],
   "exports": {
     "./footer": {
-      "types": "./dist/footer/index.d.ts",
-      "default": "./dist/footer/index.js"
+      "types": "./dist/footer/1/index.d.ts",
+      "default": "./dist/footer/1/index.js"
     },
     "./navbar": {
-      "types": "./dist/navbar/index.d.ts",
-      "default": "./dist/navbar/index.js"
+      "types": "./dist/navbar/1/index.d.ts",
+      "default": "./dist/navbar/1/index.js"
     },
     "./hero": {
       "types": "./dist/hero/index.d.ts",

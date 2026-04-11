@@ -74,5 +74,5 @@ pnpm remove @katebtech/layout
 Install the package into the app project:
 
 ```bash
-pnpm add @katebtech/business@git+ssh://git@github.com/Bazrahimi/katebtech-layout.git#main
+pnpm add @katebtech/layout@git+ssh://git@github.com/Bazrahimi/katebtech-layout.git#main
 ```
