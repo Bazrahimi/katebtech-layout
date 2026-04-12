@@ -52,7 +52,7 @@ export type PrimaryLinksProps = {
   aboutHref: string;
   contactHref: string;
   hZLanguageHref: string;
-  otherLanguage: OtherLanguageKey[];
+  HzLanguage: [Extract<OtherLanguageKey, "HZ">];
   services: readonly MenuItem[];
   primaryLinkClass: string;
 };

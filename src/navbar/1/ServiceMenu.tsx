@@ -3,7 +3,7 @@
 import { Button } from "@katebtech/core";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import DropdownMenu from "./lib/DropdownMenu";
+import { DropdownMenu } from "./lib/DropdownMenu";
 import type { ServicesMenuProps } from "./types";
 
 export const ServicesMenuClient = ({ services }: ServicesMenuProps) => {
@@ -26,8 +26,8 @@ export const ServicesMenuClient = ({ services }: ServicesMenuProps) => {
     >
       {({ setItemRef, closeMenu }) => (
         <>
-          <div className="px-3 pb-2 pt-1">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-white/50">
+          <div className="px-3 pt-1 pb-2">
+            <p className="text-[11px] font-semibold tracking-[0.18em] text-white/50 uppercase">
               Explore
             </p>
           </div>
@@ -48,7 +48,6 @@ export const ServicesMenuClient = ({ services }: ServicesMenuProps) => {
                 >
                   <span className="w-full text-left">{item.label}</span>
                 </Button>
-         
               </li>
             ))}
           </ul>
@@ -56,4 +55,4 @@ export const ServicesMenuClient = ({ services }: ServicesMenuProps) => {
       )}
     </DropdownMenu>
   );
-}
+};

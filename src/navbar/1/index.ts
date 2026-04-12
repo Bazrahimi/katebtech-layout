@@ -1,2 +1,3 @@
-// src/navbar/1/index.ts
-// I want create this files from the screenshot at the level. please create command for terminal
+export {AccountMenu} from "./account/AccountMenu";
+export { HomeLink } from "./HomeLink";
+export { PrimaryLinks } from "./PrimaryLinks";

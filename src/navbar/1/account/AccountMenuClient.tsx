@@ -2,7 +2,7 @@
 
 import { Button } from "@katebtech/core";
 import { HiUser } from "react-icons/hi2";
-import DropdownMenu from "../lib/DropdownMenu";
+import {DropdownMenu }from "../lib/DropdownMenu";
 import { LogoutButton } from "./LogoutButton";
 
 import type { AccountMenuProps } from "../types";

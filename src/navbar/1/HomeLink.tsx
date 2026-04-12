@@ -2,15 +2,21 @@ import Image from "next/image";
 import Link from "next/link";
 import type { HomeLinkProps } from "./types";
 
+/**
+ * Brand home link shown on the left side of the navbar.
+ *
+ * Renders the organisation icon and name, and links both back to the
+ * website home page.
+ *
+ * @param props - Home link display and navigation props.
+ * @param props.homeHref - URL path for the home page link.
+ * @param props.orgName - Organisation or business name shown beside the logo.
+ * @param props.orgIconSrc - Image source for the organisation icon or logo.
+ */
 export const HomeLink = ({ homeHref, orgName, orgIconSrc }: HomeLinkProps) => {
   return (
-    <Link
-      // href={publicRoutes.home()}
-      href={homeHref}
-      className="inline-flex items-center gap-2"
-    >
+    <Link href={homeHref} className="inline-flex items-center gap-2">
       <Image
-        // src={publicAssets.icons.icon}
         src={orgIconSrc}
         alt={`${orgName} Logo`}
         width={28}

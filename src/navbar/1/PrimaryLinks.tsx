@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { HzLanguage } from "./HzLanguages";
+import { HzLanguage as HzLanguageLink } from "./HzLanguages";
 import { ServicesMenuClient } from "./ServiceMenu";
 // import { NAVBAR_CN as CN } from "./styles";
 import type { PrimaryLinksProps } from "./types";
@@ -9,11 +9,11 @@ export const PrimaryLinks = ({
   aboutHref,
   contactHref,
   hZLanguageHref,
-  otherLanguage,
+  HzLanguage,
   services,
   primaryLinkClass
 }: PrimaryLinksProps) => {
-  const hasHz = otherLanguage.includes("HZ");
+  const hasHz = HzLanguage.includes("HZ");
 
   return (
     <div className="flex items-center gap-1">
@@ -23,8 +23,8 @@ export const PrimaryLinks = ({
       <ServicesMenuClient services={services} />
 
       {hasHz ? (
-        <HzLanguage
-          otherLanguage={otherLanguage}
+        <HzLanguageLink
+          Language={HzLanguage}
           href={hZLanguageHref}
           className={primaryLinkClass}
         />

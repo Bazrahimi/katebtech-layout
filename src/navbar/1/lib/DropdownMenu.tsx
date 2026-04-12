@@ -4,7 +4,7 @@ import { HiChevronDown } from "react-icons/hi";
 import type { DropdownMenuProps } from "../types";
 import { useDropdownMenu } from "./useDropdownMenu";
 
-export default function DropdownMenu({
+export const DropdownMenu = ({
   buttonContent,
   menuLabel,
   itemCount,
@@ -13,7 +13,7 @@ export default function DropdownMenu({
   menuClassName,
   chevronClassName,
   align = "center",
-}: DropdownMenuProps) {
+}: DropdownMenuProps) => {
   const {
     open,
     setOpen,
@@ -66,4 +66,4 @@ export default function DropdownMenu({
       )}
     </div>
   );
-}
+};
