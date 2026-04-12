@@ -7,21 +7,21 @@
     "dist"
   ],
   "exports": {
-    "./footer": {
+    "./footer/1": {
       "types": "./dist/footer/1/index.d.ts",
       "default": "./dist/footer/1/index.js"
     },
-    "./navbar": {
+    "./navbar/1": {
       "types": "./dist/navbar/1/index.d.ts",
       "default": "./dist/navbar/1/index.js"
     },
-    "./hero": {
-      "types": "./dist/hero/index.d.ts",
-      "default": "./dist/hero/index.js"
+    "./hero/1": {
+      "types": "./dist/hero/1/index.d.ts",
+      "default": "./dist/hero/1/index.js"
     },
-    "./home": {
-      "types": "./dist/home/index.d.ts",
-      "default": "./dist/home/index.js"
+    "./home/1": {
+      "types": "./dist/home/1/index.d.ts",
+      "default": "./dist/home/1/index.js"
     },
     "./package.json": "./package.json"
   },
