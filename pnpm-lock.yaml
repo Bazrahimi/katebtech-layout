@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@katebtech/core':
-        specifier: git+ssh://git@github.com/Bazrahimi/katebtech-core.git#main
-        version: git+https://git@github.com:Bazrahimi/katebtech-core.git#0962e93e4655ac3d4c227d80be51253502c932b3(next@16.2.3(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        specifier: git+ssh://git@ssh.github.com:443/Bazrahimi/katebtech-core.git#main
+        version: git+ssh://git@ssh.github.com:443/Bazrahimi/katebtech-core.git#7176b7bcf990aed9f62bd54be101cd3e4f311967(next@16.2.3(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       react:
         specifier: ^19.0.0
         version: 19.2.5
@@ -234,8 +234,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@katebtech/core@git+https://git@github.com:Bazrahimi/katebtech-core.git#0962e93e4655ac3d4c227d80be51253502c932b3':
-    resolution: {commit: 0962e93e4655ac3d4c227d80be51253502c932b3, repo: git@github.com:Bazrahimi/katebtech-core.git, type: git}
+  '@katebtech/core@git+ssh://git@ssh.github.com:443/Bazrahimi/katebtech-core.git#7176b7bcf990aed9f62bd54be101cd3e4f311967':
+    resolution: {commit: 7176b7bcf990aed9f62bd54be101cd3e4f311967, repo: ssh://git@ssh.github.com:443/Bazrahimi/katebtech-core.git, type: git}
     version: 0.1.0
     peerDependencies:
       next: ^16.0.0
@@ -344,9 +344,6 @@ packages:
 
   caniuse-lite@1.0.30001787:
     resolution: {integrity: sha512-mNcrMN9KeI68u7muanUpEejSLghOKlVhRqS/Za2IeyGllJ9I9otGpR9g3nsw7n4W378TE/LyIteA0+/FOZm4Kg==}
-
-  canvas-confetti@1.9.4:
-    resolution: {integrity: sha512-yxQbJkAVrFXWNbTUjPqjF7G+g6pDotOUHGbkZq2NELZUMDpiJ85rIEazVb8GTaAptNW2miJAXbs1BtioA251Pw==}
 
   client-only@0.0.1:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
@@ -861,9 +858,8 @@ snapshots:
   '@img/sharp-win32-x64@0.34.5':
     optional: true
 
-  '@katebtech/core@git+https://git@github.com:Bazrahimi/katebtech-core.git#0962e93e4655ac3d4c227d80be51253502c932b3(next@16.2.3(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
+  '@katebtech/core@git+ssh://git@ssh.github.com:443/Bazrahimi/katebtech-core.git#7176b7bcf990aed9f62bd54be101cd3e4f311967(next@16.2.3(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
     dependencies:
-      canvas-confetti: 1.9.4
       clsx: 2.1.1
       next: 16.2.3(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       react: 19.2.5
@@ -942,8 +938,6 @@ snapshots:
       balanced-match: 4.0.4
 
   caniuse-lite@1.0.30001787: {}
-
-  canvas-confetti@1.9.4: {}
 
   client-only@0.0.1: {}
 
