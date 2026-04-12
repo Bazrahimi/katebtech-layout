@@ -1,5 +1,3 @@
-"use client";
-
 import { cn, P } from "@katebtech/core";
 import { FooterHeader } from "./FooterHeader";
 
@@ -64,12 +62,12 @@ export const Acknowledgement = ({
     >
       <div
         className={cn(
-          "relative overflow-hidden rounded-lg border border-black/10 bg-app-s-dark p-4 sm:p-5",
+          "bg-app-s-dark relative overflow-hidden rounded-lg border border-black/10 p-4 sm:p-5",
         )}
       >
         <span
           aria-hidden="true"
-          className="absolute left-0 top-0 h-full w-1.5 bg-[linear-gradient(to_bottom,#000000,#CC0000,#FFFF00)]"
+          className="absolute top-0 left-0 h-full w-1.5 bg-[linear-gradient(to_bottom,#000000,#CC0000,#FFFF00)]"
         />
 
         <FooterHeader className={headerClassName}>
