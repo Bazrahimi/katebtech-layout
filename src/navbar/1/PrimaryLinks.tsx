@@ -9,9 +9,10 @@ export const PrimaryLinks = ({
   aboutHref,
   contactHref,
   hZLanguageHref,
+  hzLanguageSrc,
   hzLanguage,
   services,
-  primaryLinkClass
+  primaryLinkClass,
 }: PrimaryLinksProps) => {
   return (
     <div className="flex items-center gap-1">
@@ -20,6 +21,7 @@ export const PrimaryLinks = ({
       </Link>
       <ServicesMenuClient services={services} />
       <HzLanguageLink
+        src={hzLanguageSrc}
         hzLanguage={hzLanguage}
         href={hZLanguageHref}
         className={primaryLinkClass}

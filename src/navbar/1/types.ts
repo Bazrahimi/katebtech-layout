@@ -48,10 +48,18 @@ export type HomeLinkProps = {
   orgIconSrc: string;
 };
 
+export type HzLanguageProps = {
+  hzLanguage: OtherLanguageKey;
+  href: string;
+  src: string;
+  className?: string;
+};
+
 export type PrimaryLinksProps = {
   aboutHref: string;
   contactHref: string;
   hZLanguageHref: string;
+  hzLanguageSrc: string;
   hzLanguage: OtherLanguageKey;
   services: readonly MenuItem[];
   primaryLinkClass: string;

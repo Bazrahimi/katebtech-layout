@@ -1,19 +1,18 @@
 import { cn } from "@katebtech/core";
 import Image from "next/image";
 import Link from "next/link";
-import type { OtherLanguageKey } from "@katebtech/core";
-
-type HzLanguageProps = {
-  hzLanguage: OtherLanguageKey;
-  href: string;
-  className?: string;
-};
+import type { HzLanguageProps } from "./types";
 
 export const HzLanguage = ({
   hzLanguage,
   href,
+  src,
   className,
 }: HzLanguageProps) => {
+  if (hzLanguage !== "HZ") {
+    return null;
+  }
+
   return (
     <Link
       href={href}
@@ -22,7 +21,7 @@ export const HzLanguage = ({
       title="Hazaragi"
     >
       <Image
-        src="src/assets/hazaristan-flag-icon.svg"
+        src={src}
         alt="Hazaragi"
         width={24}
         height={18}
