@@ -15,14 +15,7 @@
       "types": "./dist/navbar/1/index.d.ts",
       "default": "./dist/navbar/1/index.js"
     },
-    "./hero/1": {
-      "types": "./dist/hero/1/index.d.ts",
-      "default": "./dist/hero/1/index.js"
-    },
-    "./home/1": {
-      "types": "./dist/home/1/index.d.ts",
-      "default": "./dist/home/1/index.js"
-    },
+
     "./package.json": "./package.json"
   },
   "scripts": {
