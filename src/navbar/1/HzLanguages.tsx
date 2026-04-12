@@ -1,23 +1,19 @@
-
 import { cn } from "@katebtech/core";
 import Image from "next/image";
 import Link from "next/link";
-import type { OtherLanguageKey } from "@katebtech/core";
 
 type HzLanguageProps = {
-  otherLanguage: OtherLanguageKey[];
+  hzLanguage: "HZ";
   href: string;
   className?: string;
 };
 
 export const HzLanguage = ({
-  otherLanguage,
+  hzLanguage,
   href,
   className,
 }: HzLanguageProps) => {
-  const hasHz = otherLanguage.includes("HZ");
-
-  if (!hasHz) return null;
+  if (hzLanguage !== "HZ") return null;
 
   return (
     <Link

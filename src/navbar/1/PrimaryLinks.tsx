@@ -9,11 +9,11 @@ export const PrimaryLinks = ({
   aboutHref,
   contactHref,
   hZLanguageHref,
-  HzLanguage,
+  hzLanguage,
   services,
   primaryLinkClass
 }: PrimaryLinksProps) => {
-  const hasHz = HzLanguage.includes("HZ");
+  const hasHz = hzLanguage.includes("HZ");
 
   return (
     <div className="flex items-center gap-1">
@@ -24,7 +24,8 @@ export const PrimaryLinks = ({
 
       {hasHz ? (
         <HzLanguageLink
-          Language={HzLanguage}
+        
+          hzLanguage={hzLanguage}
           href={hZLanguageHref}
           className={primaryLinkClass}
         />
