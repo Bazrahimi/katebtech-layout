@@ -1,9 +1,10 @@
 import { cn } from "@katebtech/core";
 import Image from "next/image";
 import Link from "next/link";
+import type { OtherLanguageKey } from "@katebtech/core";
 
 type HzLanguageProps = {
-  hzLanguage: "HZ";
+  hzLanguage: OtherLanguageKey;
   href: string;
   className?: string;
 };
@@ -13,8 +14,6 @@ export const HzLanguage = ({
   href,
   className,
 }: HzLanguageProps) => {
-  if (hzLanguage !== "HZ") return null;
-
   return (
     <Link
       href={href}

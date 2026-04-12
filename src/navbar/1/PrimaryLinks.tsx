@@ -13,23 +13,17 @@ export const PrimaryLinks = ({
   services,
   primaryLinkClass
 }: PrimaryLinksProps) => {
-  const hasHz = hzLanguage.includes("HZ");
-
   return (
     <div className="flex items-center gap-1">
       <Link href={aboutHref} className={primaryLinkClass}>
         About Us
       </Link>
       <ServicesMenuClient services={services} />
-
-      {hasHz ? (
-        <HzLanguageLink
-        
-          hzLanguage={hzLanguage}
-          href={hZLanguageHref}
-          className={primaryLinkClass}
-        />
-      ) : null}
+      <HzLanguageLink
+        hzLanguage={hzLanguage}
+        href={hZLanguageHref}
+        className={primaryLinkClass}
+      />
 
       <Link href={contactHref} className={primaryLinkClass}>
         Contact

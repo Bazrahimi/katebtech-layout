@@ -52,7 +52,7 @@ export type PrimaryLinksProps = {
   aboutHref: string;
   contactHref: string;
   hZLanguageHref: string;
-  hzLanguage: "HZ";
+  hzLanguage: OtherLanguageKey;
   services: readonly MenuItem[];
   primaryLinkClass: string;
 };
@@ -66,4 +66,3 @@ export type UseDropdownReturn = {
   onButtonKeyDown: (e: KeyboardEvent<HTMLButtonElement>) => void;
   onMenuKeyDown: (e: KeyboardEvent<HTMLElement>) => void;
 };
-//
