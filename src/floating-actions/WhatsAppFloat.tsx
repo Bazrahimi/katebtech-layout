@@ -53,3 +53,4 @@ export const WhatsAppFloat = ({ textHeading, whatsAppNumber }: Props) => {
     </div>
   );
 };
+//
