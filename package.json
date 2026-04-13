@@ -21,7 +21,6 @@
     "build": "rm -rf dist && tsc",
     "typecheck": "tsc --noEmit",
     "check": "pnpm typecheck && pnpm build",
-    "prepare": "pnpm build",
     "clean": "rm -rf dist",
     "format": "prettier . --write",
     "format:check": "prettier . --check"
