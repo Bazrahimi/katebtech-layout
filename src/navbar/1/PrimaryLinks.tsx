@@ -10,6 +10,7 @@ export const PrimaryLinks = ({
   contactHref,
   hZLanguageHref,
   hzLanguageSrc,
+  hzLanguageText,
   hzLanguage,
   services,
   primaryLinkClass,
@@ -22,6 +23,7 @@ export const PrimaryLinks = ({
       <ServicesMenuClient services={services} />
       <HzLanguageLink
         src={hzLanguageSrc}
+        text={hzLanguageText}
         hzLanguage={hzLanguage}
         href={hZLanguageHref}
         className={primaryLinkClass}
