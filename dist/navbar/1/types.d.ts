@@ -42,7 +42,7 @@ export type HzLanguageProps = {
 };
 export type PrimaryLinksProps = {
     aboutHref: string;
-    contactHref: string;
+    contactHref?: string;
     hZLanguageHref: string;
     hzLanguageSrc: string;
     hzLanguage: OtherLanguageKey;

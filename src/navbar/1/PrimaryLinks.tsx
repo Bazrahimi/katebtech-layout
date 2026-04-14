@@ -26,10 +26,11 @@ export const PrimaryLinks = ({
         href={hZLanguageHref}
         className={primaryLinkClass}
       />
-
-      <Link href={contactHref} className={primaryLinkClass}>
-        Contact
-      </Link>
+      {contactHref ? (
+        <Link href={contactHref} className={primaryLinkClass}>
+          Contact
+        </Link>
+      ) : null}
     </div>
   );
 };

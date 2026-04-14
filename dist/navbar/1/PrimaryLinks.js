@@ -3,5 +3,5 @@ import Link from "next/link";
 import { HzLanguage as HzLanguageLink } from "./HzLanguages";
 import { ServicesMenuClient } from "./ServiceMenu";
 export const PrimaryLinks = ({ aboutHref, contactHref, hZLanguageHref, hzLanguageSrc, hzLanguage, services, primaryLinkClass, }) => {
-    return (_jsxs("div", { className: "flex items-center gap-1", children: [_jsx(Link, { href: aboutHref, className: primaryLinkClass, children: "About Us" }), _jsx(ServicesMenuClient, { services: services }), _jsx(HzLanguageLink, { src: hzLanguageSrc, hzLanguage: hzLanguage, href: hZLanguageHref, className: primaryLinkClass }), _jsx(Link, { href: contactHref, className: primaryLinkClass, children: "Contact" })] }));
+    return (_jsxs("div", { className: "flex items-center gap-1", children: [_jsx(Link, { href: aboutHref, className: primaryLinkClass, children: "About Us" }), _jsx(ServicesMenuClient, { services: services }), _jsx(HzLanguageLink, { src: hzLanguageSrc, hzLanguage: hzLanguage, href: hZLanguageHref, className: primaryLinkClass }), contactHref ? (_jsx(Link, { href: contactHref, className: primaryLinkClass, children: "Contact" })) : null] }));
 };
