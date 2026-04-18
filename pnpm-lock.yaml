@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@katebtech/core':
         specifier: github:Bazrahimi/katebtech-core#main
-        version: git+https://git@github.com:Bazrahimi/katebtech-core.git#3e16314316a2870cdb7f90149d752441b06e47c5(next@16.2.3(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: https://codeload.github.com/Bazrahimi/katebtech-core/tar.gz/ae616931b6500f28793a55354945ed300d44a9af(next@16.2.3(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       react:
         specifier: ^19.0.0
         version: 19.2.5
@@ -234,8 +234,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@katebtech/core@git+https://git@github.com:Bazrahimi/katebtech-core.git#3e16314316a2870cdb7f90149d752441b06e47c5':
-    resolution: {commit: 3e16314316a2870cdb7f90149d752441b06e47c5, repo: git@github.com:Bazrahimi/katebtech-core.git, type: git}
+  '@katebtech/core@https://codeload.github.com/Bazrahimi/katebtech-core/tar.gz/ae616931b6500f28793a55354945ed300d44a9af':
+    resolution: {tarball: https://codeload.github.com/Bazrahimi/katebtech-core/tar.gz/ae616931b6500f28793a55354945ed300d44a9af}
     version: 0.1.0
     peerDependencies:
       next: ^16.0.0
@@ -858,7 +858,7 @@ snapshots:
   '@img/sharp-win32-x64@0.34.5':
     optional: true
 
-  '@katebtech/core@git+https://git@github.com:Bazrahimi/katebtech-core.git#3e16314316a2870cdb7f90149d752441b06e47c5(next@16.2.3(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
+  '@katebtech/core@https://codeload.github.com/Bazrahimi/katebtech-core/tar.gz/ae616931b6500f28793a55354945ed300d44a9af(next@16.2.3(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
     dependencies:
       clsx: 2.1.1
       next: 16.2.3(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
