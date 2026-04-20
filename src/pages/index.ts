@@ -1,4 +1,5 @@
 export * from "./_lib";
 export * from "./_ui";
-export * from "./about-us"
-export * from "./contact-us"
+export * from "./about-us";
+export * from "./contact-us";
+export * from "./services";
