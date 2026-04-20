@@ -1,9 +1,4 @@
 import type { ImageMeta } from "@katebtech/core";
-export declare const FONT_VARIABLES: {
-    readonly ui: "--font-ui";
-    readonly heading: "--font-heading";
-    readonly body: "--font-body";
-};
 export type ServicesPage = {
     label: string;
     labelFarsi: string;

@@ -1,10 +1,5 @@
 import type { ImageMeta } from "@katebtech/core";
 
-export const FONT_VARIABLES = {
-  ui: "--font-ui",
-  heading: "--font-heading",
-  body: "--font-body",
-} as const;
 
 export type ServicesPage = {
   label: string;
