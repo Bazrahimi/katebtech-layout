@@ -1,6 +1,3 @@
-export {
-  ImageGalleryClient,
-  type ImageGalleryProps,
-} from "./ImageGalleryClient";
+export { ImageGallery } from "./ImageGallery";
 
 export { ServiceLeafImage } from "./ServiceLeafImage";

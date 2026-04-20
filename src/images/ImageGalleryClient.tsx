@@ -1,6 +1,5 @@
 "use client";
 
-import type { ImageMeta } from "@katebtech/core";
 import {
   cldGalleryImage,
   cldLargePreviewImage,
@@ -14,21 +13,7 @@ import { Keyboard, Navigation, Thumbs } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { IMAGE_DEFAULT_BLUR } from "@katebtech/core";
-export type ImageGalleryProps = {
-  /**
-   * Image collection displayed in the gallery.
-   */
-  images: ImageMeta[];
-
-  /**
-   * Whether the first gallery image should be loaded with high priority.
-   *
-   * Useful when the gallery appears above the fold.
-   *
-   * @default false
-   */
-  priorityFirstImage?: boolean;
-};
+import type { ImageGalleryProps } from "./ImageGallery";
 
 /**
  * Interactive client-side image gallery with:
