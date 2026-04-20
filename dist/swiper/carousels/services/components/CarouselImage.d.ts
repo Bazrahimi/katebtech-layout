@@ -1,4 +1,4 @@
-import type { ServiceLeaf } from "@katebtech/layout/org";
+import type { ServiceLeaf } from "@katebtech/layout/pages";
 type CarouselImageProps = {
     image: ServiceLeaf["image"];
 };

@@ -1,6 +1,6 @@
 import { Header, List, P } from "@katebtech/core";
 import { ServiceLeafImage } from "@katebtech/layout/images";
-import type { ServiceLeaf } from "@katebtech/layout/org";
+import type { ServiceLeaf } from "@katebtech/layout/pages";
 
 type Props = {
   leaf: ServiceLeaf;

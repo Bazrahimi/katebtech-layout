@@ -1,4 +1,4 @@
-import type { ServiceLeaf } from "@katebtech/layout/org";
+import type { ServiceLeaf } from "@katebtech/layout/pages";
 type Props = {
     open: boolean;
     onClose: () => void;

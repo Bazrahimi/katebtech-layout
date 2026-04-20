@@ -9,7 +9,7 @@ import { useMounted } from "./hook/useMounted";
 import { A11y, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import type { ServiceSubCategory } from "@katebtech/layout/org";
+import type { ServiceSubCategory } from "@katebtech/layout/pages";
 import { cn } from "@katebtech/core";
 
 type Props = {

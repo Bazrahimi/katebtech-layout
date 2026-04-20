@@ -1,6 +1,6 @@
 "use client";
 
-import type { ServiceLeaf } from "@katebtech/layout/org";
+import type { ServiceLeaf } from "@katebtech/layout/pages";
 import { useState } from "react";
 // import CarouselImage from "./CarouselImage";
 import { CarouselSlideContent } from "./CarouselSlideContent";

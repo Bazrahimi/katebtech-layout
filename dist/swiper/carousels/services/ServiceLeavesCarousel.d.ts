@@ -1,4 +1,4 @@
-import type { ServiceSubCategory } from "@katebtech/layout/org";
+import type { ServiceSubCategory } from "@katebtech/layout/pages";
 type Props = {
     /**
      * Service subcategory entries rendered as carousel slides.

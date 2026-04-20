@@ -39,9 +39,9 @@
       "types": "./dist/navbar/1/index.d.ts",
       "default": "./dist/navbar/1/index.js"
     },
-    "./org": {
-      "types": "./dist/org/index.d.ts",
-      "default": "./dist/org/index.js"
+    "./pages": {
+      "types": "./dist/pages/index.d.ts",
+      "default": "./dist/pages/index.js"
     },
     "./swiper": {
       "types": "./dist/swiper/index.d.ts",

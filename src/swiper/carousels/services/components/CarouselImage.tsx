@@ -1,6 +1,6 @@
 "use client";
-import {ServiceLeafImage} from "@katebtech/layout/images";
-import type { ServiceLeaf } from "@katebtech/layout/org";
+import { ServiceLeafImage } from "@katebtech/layout/images";
+import type { ServiceLeaf } from "@katebtech/layout/pages";
 type CarouselImageProps = {
   image: ServiceLeaf["image"];
 };
