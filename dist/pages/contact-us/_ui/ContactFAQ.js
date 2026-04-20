@@ -1,0 +1,9 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { Header, P } from "@katebtech/core";
+import Link from "next/link";
+import { FaArrowAltCircleDown } from "react-icons/fa";
+export const ContactFAQ = ({ items, title = "Frequently asked questions", subtitle = "Quick answers to common enquiries.", ctaHref = "#enquiry-form", ctaLabel = "Send an enquiry", }) => {
+    if (!items.length)
+        return null;
+    return (_jsxs("section", { className: "border-app-p-main/10 from-app-p-dark to-app-p-light mt-10 rounded-2xl border bg-linear-to-br p-6 shadow-sm backdrop-blur sm:p-8", children: [_jsxs("div", { className: "space-y-1", children: [_jsx(Header, { as: "h3", className: "text-gray-50", children: title }), _jsx(P, { className: "text-gray-50", children: subtitle })] }), _jsx("div", { className: "mt-5 space-y-3", children: items.map((item, idx) => (_jsxs("details", { className: "group rounded-xl border border-gray-200 bg-white p-4", children: [_jsxs("summary", { className: "cursor-pointer list-none font-medium text-gray-900 select-none", children: [_jsx("span", { className: "mr-2 text-gray-500", children: "Q." }), item.q, _jsx(FaArrowAltCircleDown, { className: "text-app-p-main float-right h-5 w-5 animate-pulse transition-transform group-open:rotate-180" })] }), _jsx("div", { className: "mt-3 pl-1", children: _jsx(P, { className: "text-gray-700", children: item.a }) })] }, `${idx}-${item.q}`))) }), ctaHref ? (_jsxs("div", { className: "mt-6 flex flex-wrap items-center justify-between gap-3 rounded-xl bg-gray-50 p-4", children: [_jsx(P, { className: "text-gray-700", children: "Still need help?" }), _jsx(Link, { href: ctaHref, className: "rounded-md bg-black px-4 py-2 text-sm font-medium text-white hover:opacity-90 focus-visible:ring-2 focus-visible:ring-black/40 focus-visible:outline-none", children: ctaLabel })] })) : null] }));
+};
