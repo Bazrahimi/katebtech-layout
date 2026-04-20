@@ -58,10 +58,7 @@ type Props = {
  * />
  * ```
  */
-export default function SecondaryLanguageCard({
-  otherLangKey,
-  orgNameHz,
-}: Props) {
+export const SecondaryLanguageCard = ({ otherLangKey, orgNameHz }: Props) => {
   const statement = OTHER_LANGUAGES[otherLangKey].statement(orgNameHz);
 
   const nativeLabelByLang: Record<OtherLanguageKey, string> = {
@@ -91,4 +88,4 @@ export default function SecondaryLanguageCard({
       ))}
     </div>
   );
-}
+};

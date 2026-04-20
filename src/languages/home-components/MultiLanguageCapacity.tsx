@@ -2,7 +2,7 @@ import { Header, P } from "@katebtech/core";
 
 import type { OtherLanguageKey } from "@katebtech/core";
 import { OTHER_LANGUAGES, PRIMARY_LANGUAGE } from "@katebtech/core";
-import SecondaryLanguageCard from "./components/SecondaryLanguageCard";
+import {SecondaryLanguageCard} from "./components/SecondaryLanguageCard";
 
 type Props = {
   /**

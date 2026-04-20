@@ -1,7 +1,7 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import { Header, P } from "@katebtech/core";
 import { OTHER_LANGUAGES, PRIMARY_LANGUAGE } from "@katebtech/core";
-import SecondaryLanguageCard from "./components/SecondaryLanguageCard";
+import { SecondaryLanguageCard } from "./components/SecondaryLanguageCard";
 /**
  * Displays the organisation's multilingual communication capacity.
  *

@@ -33,11 +33,11 @@ const accentStyle = (lang) => {
  * />
  * ```
  */
-export default function SecondaryLanguageCard({ otherLangKey, orgNameHz, }) {
+export const SecondaryLanguageCard = ({ otherLangKey, orgNameHz }) => {
     const statement = OTHER_LANGUAGES[otherLangKey].statement(orgNameHz);
     const nativeLabelByLang = {
         HZ: OTHER_LANGUAGES.HZ.label.HZ,
     };
     const nativeLabel = nativeLabelByLang[otherLangKey];
     return (_jsxs("div", { dir: "rtl", className: cn("rounded-2xl border p-5 shadow-sm transition-shadow hover:shadow-md sm:p-6", accentStyle(otherLangKey)), children: [_jsx("div", { className: "mb-3 flex items-center gap-2", children: _jsx(Header, { as: "h4", align: "right", className: "text-white", children: nativeLabel }) }), statement.map((t, i) => (_jsx(P, { className: "pr-4 text-gray-50", children: t }, i)))] }));
-}
+};

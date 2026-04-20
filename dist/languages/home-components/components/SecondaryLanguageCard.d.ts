@@ -37,6 +37,6 @@ type Props = {
  * />
  * ```
  */
-export default function SecondaryLanguageCard({ otherLangKey, orgNameHz, }: Props): import("react/jsx-runtime").JSX.Element;
+export declare const SecondaryLanguageCard: ({ otherLangKey, orgNameHz }: Props) => import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=SecondaryLanguageCard.d.ts.map
