@@ -122,6 +122,6 @@ type Props = {
  * />
  * ```
  */
-export default function ServiceCTA({ CtaPresetsKey, orgProfile, routes, languageLocal, serviceLabel, serviceLabelFarsi, generalEnquiry, className, headingOverride, }: Props): import("react/jsx-runtime").JSX.Element;
+export declare const ServiceCTA: ({ CtaPresetsKey, orgProfile, routes, languageLocal, serviceLabel, serviceLabelFarsi, generalEnquiry, className, headingOverride, }: Props) => import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=ServiceCTA.d.ts.map

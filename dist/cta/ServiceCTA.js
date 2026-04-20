@@ -31,7 +31,7 @@ import { Button, cn, ctaCall, ctaCallHz, getCtaCopy, Header, P, } from "@katebte
  * />
  * ```
  */
-export default function ServiceCTA({ CtaPresetsKey, orgProfile, routes, languageLocal = "EN", serviceLabel, serviceLabelFarsi, generalEnquiry, className, headingOverride, }) {
+export const ServiceCTA = ({ CtaPresetsKey, orgProfile, routes, languageLocal = "EN", serviceLabel, serviceLabelFarsi, generalEnquiry, className, headingOverride, }) => {
     const copy = getCtaCopy(CtaPresetsKey, languageLocal);
     const dir = copy.dir;
     const resolvedServiceLabel = languageLocal === "HZ"
@@ -60,4 +60,4 @@ export default function ServiceCTA({ CtaPresetsKey, orgProfile, routes, language
                     (languageLocal === "HZ" ? " | پرسش عمومی" : " | General enquiry") })), !!callout && (_jsx(P, { className: cn("text-center text-gray-50", !generalEnquiry && "text-sm leading-relaxed text-gray-700"), children: callout })), generalEnquiry && (_jsx(P, { className: "mt-2 text-center text-slate-300", children: languageLocal === "HZ"
                     ? `اگر پرسش عمومی دارید با ${orgProfile.orgName} تماس بگیرید.`
                     : `Contact ${orgProfile.orgName} if you have a general question.` })), _jsxs("div", { className: "mt-6 flex flex-col gap-3 sm:flex-row sm:justify-center", children: [_jsx(Button, { as: "link", href: href, variant: generalEnquiry ? "outline" : "primary", size: "sm", className: "text-center", children: languageLocal === "HZ" ? copy.label : `Get a ${copy.label}` }), generalEnquiry && (_jsx(Button, { as: "link", href: routes.contact(), variant: "outline", size: "sm", children: languageLocal === "HZ" ? "پرسش عمومی" : "General Enquiry" }))] })] }));
-}
+};

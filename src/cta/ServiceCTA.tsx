@@ -143,7 +143,7 @@ type Props = {
  * />
  * ```
  */
-export default function ServiceCTA({
+export const ServiceCTA = ({
   CtaPresetsKey,
   orgProfile,
   routes,
@@ -153,7 +153,7 @@ export default function ServiceCTA({
   generalEnquiry,
   className,
   headingOverride,
-}: Props) {
+}: Props) => {
   const copy = getCtaCopy(CtaPresetsKey, languageLocal);
   const dir = copy.dir;
 
@@ -241,4 +241,4 @@ export default function ServiceCTA({
       </div>
     </div>
   );
-}
+};
