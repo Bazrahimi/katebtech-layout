@@ -7,6 +7,10 @@
     "dist"
   ],
   "exports": {
+    "./breadcrumbs": {
+      "types": "./dist/breadcrumbs/index.d.ts",
+      "default": "./dist/breadcrumbs/index.js"
+    },
     "./floating-actions": {
       "types": "./dist/floating-actions/index.d.ts",
       "default": "./dist/floating-actions/index.js"
