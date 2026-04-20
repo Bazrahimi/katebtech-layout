@@ -1,0 +1,1 @@
+{"version":3,"file":"CarouselImage.d.ts","sourceRoot":"","sources":["../../../../../src/swiper/carousels/services/components/CarouselImage.tsx"],"names":[],"mappings":"AAEA,OAAO,KAAK,EAAE,WAAW,EAAE,MAAM,uBAAuB,CAAC;AACzD,KAAK,kBAAkB,GAAG;IACxB,KAAK,EAAE,WAAW,CAAC,OAAO,CAAC,CAAC;CAC7B,CAAC;AAEF,QAAA,MAAM,aAAa,GAAI,WAAW,kBAAkB,4CAEnD,CAAC;AAEF,eAAe,aAAa,CAAC"}

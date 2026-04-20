@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@katebtech/core':
         specifier: github:Bazrahimi/katebtech-core#main
-        version: https://codeload.github.com/Bazrahimi/katebtech-core/tar.gz/ae616931b6500f28793a55354945ed300d44a9af(next@16.2.3(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: https://codeload.github.com/Bazrahimi/katebtech-core/tar.gz/11d84216158e6ee1d0d909ceaba703b70bd669fa(next@16.2.3(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       react:
         specifier: ^19.0.0
         version: 19.2.5
@@ -20,6 +20,9 @@ importers:
       react-icons:
         specifier: ^5.6.0
         version: 5.6.0(react@19.2.5)
+      swiper:
+        specifier: ^12.1.3
+        version: 12.1.3
     devDependencies:
       '@types/node':
         specifier: ^25.5.2
@@ -234,8 +237,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@katebtech/core@https://codeload.github.com/Bazrahimi/katebtech-core/tar.gz/ae616931b6500f28793a55354945ed300d44a9af':
-    resolution: {tarball: https://codeload.github.com/Bazrahimi/katebtech-core/tar.gz/ae616931b6500f28793a55354945ed300d44a9af}
+  '@katebtech/core@https://codeload.github.com/Bazrahimi/katebtech-core/tar.gz/11d84216158e6ee1d0d909ceaba703b70bd669fa':
+    resolution: {tarball: https://codeload.github.com/Bazrahimi/katebtech-core/tar.gz/11d84216158e6ee1d0d909ceaba703b70bd669fa}
     version: 0.1.0
     peerDependencies:
       next: ^16.0.0
@@ -676,6 +679,10 @@ packages:
       babel-plugin-macros:
         optional: true
 
+  swiper@12.1.3:
+    resolution: {integrity: sha512-XcWlVmkHFICI4fuoJKgbp8PscDcS4i7pBH8nwJRBi3dpQvhCySwsWRYm4bOf/BzKVWkHOYaFw7qz9uBSrY3oug==}
+    engines: {node: '>= 4.7.0'}
+
   tailwind-merge@3.5.0:
     resolution: {integrity: sha512-I8K9wewnVDkL1NTGoqWmVEIlUcB9gFriAEkXkfCjX5ib8ezGxtR3xD7iZIxrfArjEsH7F1CHD4RFUtxefdqV/A==}
 
@@ -858,7 +865,7 @@ snapshots:
   '@img/sharp-win32-x64@0.34.5':
     optional: true
 
-  '@katebtech/core@https://codeload.github.com/Bazrahimi/katebtech-core/tar.gz/ae616931b6500f28793a55354945ed300d44a9af(next@16.2.3(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
+  '@katebtech/core@https://codeload.github.com/Bazrahimi/katebtech-core/tar.gz/11d84216158e6ee1d0d909ceaba703b70bd669fa(next@16.2.3(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
     dependencies:
       clsx: 2.1.1
       next: 16.2.3(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1220,6 +1227,8 @@ snapshots:
     dependencies:
       client-only: 0.0.1
       react: 19.2.5
+
+  swiper@12.1.3: {}
 
   tailwind-merge@3.5.0: {}
 
