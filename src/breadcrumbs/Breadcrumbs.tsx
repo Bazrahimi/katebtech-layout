@@ -8,7 +8,7 @@ export type Breadcrumb = {
   active?: boolean;
 };
 
-const Breadcrumbs = ({ breadcrumbs }: { breadcrumbs: Breadcrumb[] }) => {
+export const Breadcrumbs = ({ breadcrumbs }: { breadcrumbs: Breadcrumb[] }) => {
   return (
     <nav aria-label="Breadcrumb" className="mb-2 ml-2 block overflow-x-auto">
       <ol className="font-app-ui flex flex-wrap items-center gap-x-1.5 text-sm text-gray-500 sm:gap-x-2 sm:text-base md:text-lg">
@@ -41,4 +41,4 @@ const Breadcrumbs = ({ breadcrumbs }: { breadcrumbs: Breadcrumb[] }) => {
   );
 };
 
-export default Breadcrumbs;
+
