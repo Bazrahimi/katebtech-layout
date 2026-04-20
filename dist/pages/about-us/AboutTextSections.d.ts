@@ -20,6 +20,6 @@ type Props = {
  * This is useful for structured about-page content such as
  * company background, values, mission, or service overview text.
  */
-export default function AboutTextSections({ sections }: Props): import("react/jsx-runtime").JSX.Element;
+export declare const AboutTextSections: ({ sections }: Props) => import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=AboutTextSections.d.ts.map

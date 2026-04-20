@@ -10,6 +10,6 @@ import { Header, P } from "@katebtech/core";
  * This is useful for structured about-page content such as
  * company background, values, mission, or service overview text.
  */
-export default function AboutTextSections({ sections }) {
+export const AboutTextSections = ({ sections }) => {
     return (_jsx("section", { className: "space-y-5 md:space-y-10", children: sections.map((s) => (_jsxs("section", { "aria-labelledby": s.id, children: [_jsx(Header, { as: "h2", size: "sm", children: s.title }), s.items.map((t, i) => (_jsx(P, { children: t }, i)))] }, s.id))) }));
-}
+};

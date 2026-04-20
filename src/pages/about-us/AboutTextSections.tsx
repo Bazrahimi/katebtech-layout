@@ -23,7 +23,7 @@ type Props = {
  * This is useful for structured about-page content such as
  * company background, values, mission, or service overview text.
  */
-export default function AboutTextSections({ sections }: Props) {
+export const AboutTextSections = ({ sections }: Props) => {
   return (
     <section className="space-y-5 md:space-y-10">
       {sections.map((s) => (
@@ -39,4 +39,4 @@ export default function AboutTextSections({ sections }: Props) {
       ))}
     </section>
   );
-}
+};
