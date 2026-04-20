@@ -11,6 +11,10 @@
       "types": "./dist/breadcrumbs/index.d.ts",
       "default": "./dist/breadcrumbs/index.js"
     },
+       "./cta": {
+      "types": "./dist/cta/index.d.ts",
+      "default": "./dist/cta/index.js"
+    },
     "./floating-actions": {
       "types": "./dist/floating-actions/index.d.ts",
       "default": "./dist/floating-actions/index.js"
