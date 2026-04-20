@@ -11,7 +11,7 @@
       "types": "./dist/breadcrumbs/index.d.ts",
       "default": "./dist/breadcrumbs/index.js"
     },
-       "./cta": {
+    "./cta": {
       "types": "./dist/cta/index.d.ts",
       "default": "./dist/cta/index.js"
     },
@@ -30,6 +30,10 @@
     "./images": {
       "types": "./dist/images/index.d.ts",
       "default": "./dist/images/index.js"
+    },
+    "./languages": {
+      "types": "./dist/languages/index.d.ts",
+      "default": "./dist/languages/index.js"
     },
     "./navbar/1": {
       "types": "./dist/navbar/1/index.d.ts",
