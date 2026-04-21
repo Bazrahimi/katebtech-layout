@@ -11,6 +11,14 @@
       "types": "./dist/breadcrumbs/index.d.ts",
       "default": "./dist/breadcrumbs/index.js"
     },
+        "./button": {
+      "types": "./dist/button/index.d.ts",
+      "default": "./dist/button/index.js"
+    },
+    "./cloudinary": {
+      "types": "./dist/cloudinary/index.d.ts",
+      "default": "./dist/cloudinary/index.js"
+    },
     "./cta": {
       "types": "./dist/cta/index.d.ts",
       "default": "./dist/cta/index.js"
