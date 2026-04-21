@@ -1,4 +1,5 @@
-import { cn, IMAGE_DEFAULT_BLUR } from "@katebtech/core";
+import { cn } from "@katebtech/core";
+import { IMAGE_DEFAULT_BLUR } from "../../images";
 import Image from "next/image";
 import type { HeroBackgroundProps } from "./types";
 

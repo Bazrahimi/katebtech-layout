@@ -1,6 +1,7 @@
 "use client";
 
-import { Button } from "@katebtech/core";
+import { Button } from "@katebtech/layout/button";
+
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { DropdownMenu } from "./lib/DropdownMenu";

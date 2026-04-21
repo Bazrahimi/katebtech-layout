@@ -1,6 +1,6 @@
 import type { CtaPresetsKey, LanguageLocal } from "@katebtech/core";
 import {
-  Button,
+
   cn,
   ctaCall,
   ctaCallHz,
@@ -8,6 +8,7 @@ import {
   Header,
   P,
 } from "@katebtech/core";
+import { Button } from "../button";
 
 type Props = {
   /**

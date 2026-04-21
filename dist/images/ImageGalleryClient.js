@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import {} from "swiper";
 import { Keyboard, Navigation, Thumbs } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { IMAGE_DEFAULT_BLUR } from "@katebtech/core";
+import { IMAGE_DEFAULT_BLUR } from "./blur";
 /**
  * Interactive client-side image gallery with:
  * - main Swiper image carousel

@@ -1,5 +1,6 @@
 "use client";
-import { Button, cn } from "@katebtech/core";
+import {  cn } from "@katebtech/core";
+import { Button } from "@katebtech/layout/button";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
 import type { ReactNode } from "react";

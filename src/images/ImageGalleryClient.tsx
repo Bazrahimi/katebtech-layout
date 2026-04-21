@@ -11,9 +11,8 @@ import { useEffect, useState } from "react";
 import { type Swiper as SwiperType } from "swiper";
 import { Keyboard, Navigation, Thumbs } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-import { IMAGE_DEFAULT_BLUR } from "@katebtech/core";
 import type { ImageGalleryProps } from "./ImageGallery";
+import { IMAGE_DEFAULT_BLUR } from "./blur";
 
 /**
  * Interactive client-side image gallery with:

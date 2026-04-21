@@ -1,6 +1,5 @@
 "use client";
-
-import { Button } from "@katebtech/core";
+import {Button} from "@katebtech/layout/button"
 import type { ServiceLeaf } from "@katebtech/layout/pages";
 import { useEffect } from "react";
 import { createPortal } from "react-dom";

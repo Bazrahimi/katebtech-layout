@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@katebtech/core";
+import { Button } from "@katebtech/layout/button";
 import { useFormStatus } from "react-dom";
 import { HiArrowRightOnRectangle } from "react-icons/hi2";
 

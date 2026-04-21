@@ -1,6 +1,6 @@
 "use client";
 import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
-import { Button } from "@katebtech/core";
+import { Button } from "../../../button";
 import { HiUser } from "react-icons/hi2";
 import { DropdownMenu } from "../lib/DropdownMenu";
 import { LogoutButton } from "./LogoutButton";

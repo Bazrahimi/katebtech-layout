@@ -1,6 +1,6 @@
 "use client";
 import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
-import { Button } from "@katebtech/core";
+import { Button } from "@katebtech/layout/button";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { DropdownMenu } from "./lib/DropdownMenu";

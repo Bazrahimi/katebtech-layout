@@ -1,6 +1,7 @@
 "use client";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import { Button, cn } from "@katebtech/core";
+import { cn } from "@katebtech/core";
+import { Button } from "@katebtech/layout/button";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 export default function CarouselNav({ prevClass, nextClass, className, }) {
     return (_jsxs("div", { className: className ??

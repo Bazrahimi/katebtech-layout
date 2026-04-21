@@ -1,7 +1,8 @@
 import { MdPhone } from "react-icons/md";
 
-import { Button, P } from "@katebtech/core";
+import { P } from "@katebtech/core";
 import type { HeroCtaProps } from "./types";
+import { Button } from "../../button";
 
 /**
  * Hero call-to-action row with:

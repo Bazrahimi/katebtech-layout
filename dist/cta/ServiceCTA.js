@@ -1,5 +1,6 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import { Button, cn, ctaCall, ctaCallHz, getCtaCopy, Header, P, } from "@katebtech/core";
+import { cn, ctaCall, ctaCallHz, getCtaCopy, Header, P, } from "@katebtech/core";
+import { Button } from "../button";
 /**
  * Reusable service CTA card for service pages and general enquiry sections.
  *

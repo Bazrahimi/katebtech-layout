@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@katebtech/core";
+import { Button } from "../../../button";
 import { HiUser } from "react-icons/hi2";
 import {DropdownMenu }from "../lib/DropdownMenu";
 import { LogoutButton } from "./LogoutButton";

@@ -1,6 +1,7 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import { MdPhone } from "react-icons/md";
-import { Button, P } from "@katebtech/core";
+import { P } from "@katebtech/core";
+import { Button } from "../../button";
 /**
  * Hero call-to-action row with:
  * - a primary CTA button
