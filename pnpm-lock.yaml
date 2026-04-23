@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@katebtech/core':
-        specifier: github:Bazrahimi/katebtech-core#main
-        version: https://codeload.github.com/Bazrahimi/katebtech-core/tar.gz/bc36712f04221ea103c75a42bad15d9883b943c0(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        specifier: git+ssh://git@github.com/Bazrahimi/katebtech-core.git#main
+        version: git+https://git@github.com:Bazrahimi/katebtech-core.git#bc36712f04221ea103c75a42bad15d9883b943c0(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       react:
         specifier: ^19.0.0
         version: 19.2.5
@@ -240,8 +240,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@katebtech/core@https://codeload.github.com/Bazrahimi/katebtech-core/tar.gz/bc36712f04221ea103c75a42bad15d9883b943c0':
-    resolution: {tarball: https://codeload.github.com/Bazrahimi/katebtech-core/tar.gz/bc36712f04221ea103c75a42bad15d9883b943c0}
+  '@katebtech/core@git+https://git@github.com:Bazrahimi/katebtech-core.git#bc36712f04221ea103c75a42bad15d9883b943c0':
+    resolution: {commit: bc36712f04221ea103c75a42bad15d9883b943c0, repo: git@github.com:Bazrahimi/katebtech-core.git, type: git}
     version: 0.1.0
     peerDependencies:
       react: ^19.0.0
@@ -867,7 +867,7 @@ snapshots:
   '@img/sharp-win32-x64@0.34.5':
     optional: true
 
-  '@katebtech/core@https://codeload.github.com/Bazrahimi/katebtech-core/tar.gz/bc36712f04221ea103c75a42bad15d9883b943c0(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
+  '@katebtech/core@git+https://git@github.com:Bazrahimi/katebtech-core.git#bc36712f04221ea103c75a42bad15d9883b943c0(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
     dependencies:
       clsx: 2.1.1
       react: 19.2.5
