@@ -2,9 +2,6 @@
   "name": "@katebtech/layout",
   "version": "0.1.0",
   "private": false,
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "type": "module",
   "files": [
     "dist"
@@ -84,7 +81,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@katebtech/core": "0.1.0",
+    "@katebtech/core": "github:Bazrahimi/katebtech-core#main",
     "react-icons": "^5.6.0",
     "swiper": "^12.1.3",
     "zod": "^4.3.6"
