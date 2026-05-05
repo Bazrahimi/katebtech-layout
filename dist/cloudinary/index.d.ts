@@ -1,2 +1,2 @@
-export * from "./cloudinary";
+export * from "./urls";
 //# sourceMappingURL=index.d.ts.map

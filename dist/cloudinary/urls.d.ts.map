@@ -1,0 +1,1 @@
+{"version":3,"file":"urls.d.ts","sourceRoot":"","sources":["../../src/cloudinary/urls.ts"],"names":[],"mappings":"AAAA,eAAO,MAAM,2BAA2B,GAAI,WAAW,MAAM;gBAGxC,MAAM,GAAG,IAAI,GAAG,SAAS,aAAa,MAAM,KAAG,MAAM;oCAWtC,MAAM,GAAG,IAAI;iCAGhB,MAAM,GAAG,IAAI;6BAGjB,MAAM,GAAG,IAAI;+BAGX,MAAM,GAAG,IAAI;kCAGV,MAAM,GAAG,IAAI;CAG9C,CAAC"}
