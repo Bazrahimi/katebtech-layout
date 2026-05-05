@@ -1,5 +1,6 @@
 import { jsx as _jsx } from "react/jsx-runtime";
-import { cldServiceCardImage, cn } from "@katebtech/core";
+import { cn } from "@katebtech/core";
+import { cldServiceCardImage } from "../cloudinary";
 import { IMAGE_DEFAULT_BLUR } from "@katebtech/layout/images";
 import Image from "next/image";
 export const ServiceLeafImage = ({ image, aspect = "aspect-[2/1]", // default ratio

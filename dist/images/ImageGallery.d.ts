@@ -1,4 +1,4 @@
-import type { ImageMeta } from "@katebtech/core";
+import type { ImageMeta } from "./definitions";
 export type ImageGalleryProps = {
     /**
      * Gallery image items rendered by the client gallery component.
@@ -35,5 +35,5 @@ export type ImageGalleryProps = {
  * />
  * ```
  */
-export declare const ImageGallery: ({ images, priorityFirstImage }: ImageGalleryProps) => import("react/jsx-runtime").JSX.Element | null;
+export declare const ImageGallery: ({ images, priorityFirstImage, }: ImageGalleryProps) => import("react/jsx-runtime").JSX.Element | null;
 //# sourceMappingURL=ImageGallery.d.ts.map

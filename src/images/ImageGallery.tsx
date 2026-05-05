@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import { ImageGalleryClient } from "./ImageGalleryClient";
 
-import type { ImageMeta } from "@katebtech/core";
+import type { ImageMeta } from "./definitions";
 
 export type ImageGalleryProps = {
   /**
@@ -33,7 +33,7 @@ export type ImageGalleryProps = {
  * - three thumbnail placeholders underneath
  */
 const GalleryFallback = () => (
-  <div className="space-y-3 animate-pulse">
+  <div className="animate-pulse space-y-3">
     <div className="aspect-[16/10] w-full rounded-2xl bg-slate-200" />
     <div className="grid grid-cols-3 gap-3">
       <div className="aspect-[4/3] rounded-xl bg-slate-200" />
@@ -59,7 +59,10 @@ const GalleryFallback = () => (
  * />
  * ```
  */
-export const ImageGallery = ({ images, priorityFirstImage }: ImageGalleryProps) => {
+export const ImageGallery = ({
+  images,
+  priorityFirstImage,
+}: ImageGalleryProps) => {
   if (!images?.length) return null;
 
   return (
@@ -71,4 +74,3 @@ export const ImageGallery = ({ images, priorityFirstImage }: ImageGalleryProps) 
     </Suspense>
   );
 };
-

@@ -1,9 +1,21 @@
-export declare const createCloudinaryTransformer: (cloudName: string) => {
-    cld: (path: string | null | undefined, transform: string) => string;
-    cldHeroBackgroundImage: (path?: string | null) => string;
-    cldServiceCardImage: (path?: string | null) => string;
-    cldGalleryImage: (path?: string | null) => string;
-    cldThumbnailImage: (path?: string | null) => string;
-    cldLargePreviewImage: (path?: string | null) => string;
-};
+/**
+ * Builds a Cloudinary URL for a hero background image.
+ */
+export declare const cldHeroBackgroundImage: (path?: string | null) => string;
+/**
+ * Builds a Cloudinary URL for a service card image.
+ */
+export declare const cldServiceCardImage: (path?: string | null) => string;
+/**
+ * Builds a Cloudinary URL for a gallery image.
+ */
+export declare const cldGalleryImage: (path?: string | null) => string;
+/**
+ * Builds a Cloudinary URL for a thumbnail image.
+ */
+export declare const cldThumbnailImage: (path?: string | null) => string;
+/**
+ * Builds a Cloudinary URL for a large preview image.
+ */
+export declare const cldLargePreviewImage: (path?: string | null) => string;
 //# sourceMappingURL=urls.d.ts.map

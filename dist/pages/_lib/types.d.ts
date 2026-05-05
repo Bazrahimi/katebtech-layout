@@ -1,4 +1,4 @@
-import type { ImageMeta } from "@katebtech/core";
+import type { ImageMeta } from "../../images";
 export type ServicesPage = {
     label: string;
     labelFarsi: string;

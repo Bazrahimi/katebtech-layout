@@ -1,6 +1,6 @@
 "use client";
 import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
-import { cldGalleryImage, cldLargePreviewImage, cldThumbnailImage, } from "@katebtech/core";
+import { cldGalleryImage, cldLargePreviewImage, cldThumbnailImage } from "../cloudinary";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import {} from "swiper";

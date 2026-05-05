@@ -1,5 +1,6 @@
-import type { ImageMeta } from "@katebtech/core";
-import { cldServiceCardImage, cn  } from "@katebtech/core";
+import type { ImageMeta } from "@katebtech/layout/images";
+import {  cn  } from "@katebtech/core";
+import { cldServiceCardImage } from "../cloudinary";
 import {IMAGE_DEFAULT_BLUR} from "@katebtech/layout/images"
 
 import Image from "next/image";

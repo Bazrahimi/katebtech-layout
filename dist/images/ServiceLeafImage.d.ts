@@ -1,4 +1,4 @@
-import type { ImageMeta } from "@katebtech/core";
+import type { ImageMeta } from "@katebtech/layout/images";
 export declare const ServiceLeafImage: ({ image, aspect, }: {
     image: ImageMeta[];
     aspect?: string;

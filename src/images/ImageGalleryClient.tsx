@@ -1,10 +1,6 @@
 "use client";
 
-import {
-  cldGalleryImage,
-  cldLargePreviewImage,
-  cldThumbnailImage,
-} from "@katebtech/core";
+import { cldGalleryImage, cldLargePreviewImage, cldThumbnailImage } from "../cloudinary";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 

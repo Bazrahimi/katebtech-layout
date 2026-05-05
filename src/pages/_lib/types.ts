@@ -1,5 +1,4 @@
-import type { ImageMeta } from "@katebtech/core";
-
+import type { ImageMeta } from "../../images";
 
 export type ServicesPage = {
   label: string;
@@ -30,8 +29,6 @@ export type ServiceLeaf = {
 export type ServiceSubCategory = {
   [key: number]: ServiceLeaf;
 };
-
-
 
 export type TeamMember = {
   name: string;
@@ -72,4 +69,3 @@ export type FAQItem = {
   q: string;
   a: string;
 };
-
