@@ -1,6 +1,7 @@
 import { z } from "zod";
 
-import type { ActionState } from "@katebtech/layout/pages";
+import type { ActionState } from "@katebtech/core";
+
 import { ENQUIRY_FIELDS as F } from "./constant";
 
 export const enquirySchema = z.object({

@@ -1,5 +1,5 @@
 import { z } from "zod";
-import type { ActionState } from "@katebtech/layout/pages";
+import type { ActionState } from "@katebtech/core";
 export declare const enquirySchema: z.ZodObject<{
     fullName: z.ZodString;
     email: z.ZodEmail;
