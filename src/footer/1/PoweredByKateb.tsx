@@ -50,7 +50,7 @@ export const PoweredByKateb = ({ orgName, className }: Props) => {
         href="https://www.katebtech.com.au"
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1 ring-1 ring-black/10 transition hover:bg-white"
+        className="inline-flex items-center gap-2 rounded-full bg-teal-950 px-3 py-1 text-white ring-1 ring-teal-900 transition hover:bg-teal-900 focus:ring-2 focus:ring-teal-700 focus:ring-offset-2 focus:outline-none"
       >
         <Image
           src={KATEB_TECH_LOGO}
