@@ -45,28 +45,27 @@ export const PoweredByKateb = ({ orgName, className }: Props) => {
       </span>
 
       <span className="opacity-40">|</span>
-
       <a
-  href="https://www.katebtech.com.au"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-flex items-center gap-2 rounded-full bg-[#0b3d2e] px-3 py-1 text-white ring-1 ring-white/15 transition hover:bg-[#10513e] focus:outline-none focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2 focus:ring-offset-[#0b3d2e]"
->
-  <Image
-    src={KATEB_TECH_LOGO}
-    alt="Kateb Tech | Kateb Technology"
-    width={16}
-    height={16}
-    unoptimized
-  />
+        href="https://www.katebtech.com.au"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 rounded-full bg-[#0b3d2e] px-3 py-1 text-white ring-1 ring-white/15 transition hover:bg-[#10513e] focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2 focus:ring-offset-[#0b3d2e] focus:outline-none"
+      >
+        <Image
+          src={KATEB_TECH_LOGO}
+          alt="Kateb Tech logo"
+          width={16}
+          height={16}
+          unoptimized
+        />
 
-  <span className="font-semibold text-white">
-    Built by{" "}
-    <span style={{ color: "#f59e0b" }} className="font-bold">
-      Kateb Tech
-    </span>
-  </span>
-</a>
+        <span className="text-[11px] font-semibold text-white">
+          Built by{" "}
+          <span style={{ color: "#f59e0b" }} className="text-[13px] font-bold">
+            Kateb Tech
+          </span>
+        </span>
+      </a>
     </div>
   );
 };
